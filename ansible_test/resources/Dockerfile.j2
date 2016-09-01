@@ -3,12 +3,12 @@ FROM {{ image }}
 MAINTAINER Rob McQueen
 
 # Install Python on Ubuntu
-RUN apt-get update && apt-get install -y \
-  build-essential \
-  python-dev \
-  python-virtualenv \
-  sudo \
-  libffi-dev
+#RUN apt-get update && apt-get install -y \
+#  build-essential \
+#  python-dev \
+#  python-virtualenv \
+#  sudo \
+#  libffi-dev
 
 # Install Python on Centos
 RUN yum install python-pip
